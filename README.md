@@ -1,6 +1,6 @@
 # Fraud Detection System
 
-A comprehensive Fraud Detection project utilizing Apache Airflow for workflow orchestration, MLflow for model tracking/management, and a streaming producer for real-time data ingestion. 
+A comprehensive Fraud Detection project utilizing Apache Airflow for workflow orchestration, MLflow for model tracking/management, and a streaming producer for real-time data ingestion.
 
 ## Project Structure
 
@@ -22,6 +22,7 @@ A comprehensive Fraud Detection project utilizing Apache Airflow for workflow or
 ## Getting Started
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/gunottam/fraud-detection.git
    cd fraud-detection/src
@@ -32,6 +33,7 @@ A comprehensive Fraud Detection project utilizing Apache Airflow for workflow or
 
 3. **Start the Infrastructure:**
    Run the following command to bring up Airflow, MLflow, and any other services defined in your stack:
+
    ```bash
    docker-compose up -d --build
    ```
@@ -43,9 +45,11 @@ A comprehensive Fraud Detection project utilizing Apache Airflow for workflow or
 ## Architecture Overview
 
 This project simulates a real-world MLOps pipeline for fraud detection:
+
 - The **Producer** streams real-time data.
 - **Airflow** schedules and orchestrates ETL tasks, model training, and batch evaluation.
 - **MLflow** tracks experiments, registers models, and manages the model lifecycle.
 
 ## License
+
 MIT
