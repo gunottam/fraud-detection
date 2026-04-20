@@ -1,0 +1,4 @@
+cryptography        # For encryption, decryption, and secure data handling
+boto3               # AWS SDK for Python; used for S3/MinIO interactions
+mlflow              # ML experiment tracking and model management
+psycopg2-binary     # PostgreSQL database adapter for Python
